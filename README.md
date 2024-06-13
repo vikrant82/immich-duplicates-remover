@@ -1,0 +1,6 @@
+- Run the Duplicate Detection Job from Jobs page in Administration
+- Copy the the value of immich_access_token from Cookies in your browser and put it \[here\](https://github.com/vikrant82/immich-duplicates-remover/blob/main/duplicates-remover.py#L11)
+- Set the base URL without a *slash* at the end for e.g. *https://photos.yourdomain.com*
+- Install dependencies
+    - `pip3 install -r requirements.txt`
+	- `python3 duplicates-remover.py`
